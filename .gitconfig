@@ -1,0 +1,12 @@
+[alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -n 10
+    lgn = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    b = branch
+    s = status
+    
+[user]
+    email = brunozimpel@gmail.com
+    name = Bruno Zimpel
+
+[pull]
+    rebase = true
