@@ -100,6 +100,7 @@
 
 ;; Misc
 
+(setq confirm-kill-emacs 'y-or-n-p)
 (setq org-html-validation-link nil)
 (setq ispell-dictionary "english")
 (setq backup-directory-alist `(("." . "~/.saves")))
@@ -107,7 +108,7 @@
 (setq-default indent-tabs-mode nil)
 (put 'upcase-region 'disabled nil)
 
-;; Customized linum steup
+;; Custom linum setup
 
 (require 'linum)
 (global-linum-mode t)
