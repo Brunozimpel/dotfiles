@@ -107,6 +107,7 @@
 (setq org-toggle-link-display t)
 (setq-default indent-tabs-mode nil)
 (put 'upcase-region 'disabled nil)
+(setq org-export-html-postamble nil)
 
 ;; Custom linum setup
 
